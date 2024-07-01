@@ -15,24 +15,15 @@
 ## OBSERVAÇÃO IMPORTANTE! 
 ### Á API da EVOLUTION vai pedir para você fazer login em uma casa de apostas. No caso tem que ter uma conta na [Vai de Bet](https://m.vaidebet.com/ptb)
 
-# OUTRAS DICAS IMPORTANTES!
-#### Se você esta usando uma máquina linux e quer executar o arquivo exe, não se preocupe, pois é so instalar o **Wine** seguindo os passos abaixo. Alem disso, o Windowns pode tentar bloquear a execução dos arquivos .exe, geralmete você vai ter que da permição para o Windows executar esses arquivos. O Firewall ou outro dispositvo de segurança podem identificar arquivos .exe como ameaças, logo vai ta bloqueando eles.
+# Windows
+#### O Windowns pode tentar bloquear a execução dos arquivos .exe, geralmete você vai ter que da permição para o Windows executar esses arquivos. O Firewall ou outro dispositvo de segurança podem identificar arquivos .exe como ameaças, logo vai ta bloqueando eles.
 
 
-## Ubuntu/Debian
+## Ubuntu 24.04 
+#### Se você esta usando uma máquina linux e quer executar o arquivo exe, não se preocupe, seguir os passos abaixo. Lembre-se de deixar os arquivos na mesma pasta!
+
 ```bash
-sudo dpkg --add-architecture i386
-
 sudo apt update
 
-sudo apt install wine64 wine32
-```
-
-## Verifique a versão do Wine instalada:
-```bash
-wine --version
-```
-## Executando um Arquivo '.exe' no LInux
-```bash
-wine LIGAR_API.exe
+python LIGAR_API_NOMEAPI.py
 ```
